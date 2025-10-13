@@ -22,10 +22,19 @@ if (-not (Test-Path $gitDir)) {
 } else {
   # .git exists, but check if remote 'origin' is properly configured
   $currentRemote = git -C $RepoPath remote get-url origin 2>$null
-  if ([string]::IsNullOrWhiteSpace($currentRemote) -or $currentRemote -ne $Remote) {
-    Write-Host "[ADOPT] Git repo exists but remote is not configured correctly."
-    Write-Host "[ADOPT] Current remote: $currentRemote"
-    Write-Host "[ADOPT] Expected remote: $Remote"
+  if (-not [string]::IsNullOrWhiteSpace($currentRemote)) {
+    # Normalize URLs by removing trailing .git for comparison
+    $normalizedCurrent = $currentRemote -replace '\.git$', ''
+    $normalizedExpected = $Remote -replace '\.git$', ''
+    
+    if ($normalizedCurrent -ne $normalizedExpected) {
+      Write-Host "[ADOPT] Git repo exists but remote is not configured correctly."
+      Write-Host "[ADOPT] Current remote: $currentRemote"
+      Write-Host "[ADOPT] Expected remote: $Remote"
+      $needsAdoption = $true
+    }
+  } else {
+    Write-Host "[ADOPT] Git repo exists but has no remote configured."
     $needsAdoption = $true
   }
 }
