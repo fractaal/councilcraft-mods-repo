@@ -201,7 +201,7 @@ $pullOutput = git -C $RepoPath pull --rebase --autostash 2>&1 | Out-String
 # Determine update status and show notification
 if ($pullOutput -match "Already up to date") {
   Write-Host "[PULL] Already up to date."
-  Show-Notification -StatusMessage "Updates are up to date!`nReady to launch." -StatusColor "Green"
+  Show-Notification -StatusMessage "I'm up to date!`nReady to launch." -StatusColor "Green"
 } elseif ($pullOutput -match "Fast-forward|Updating") {
   Write-Host "[PULL] Updates downloaded!"
   
