@@ -1,10 +1,11 @@
 # ignore everything by default
 /*
 
-# Track only minecraft/mods/
+# Track minecraft/mods/ and scripts/
 !/minecraft/
 minecraft/*
 !/minecraft/mods/
+!/scripts/
 
 # within mods, ignore common junk
 minecraft/mods/*.old
