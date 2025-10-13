@@ -1,0 +1,17 @@
+filename = 'sodium-fabric-0.6.0+mc1.21.1.jar'
+name = 'Sodium'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mc1.21.1-0.6.0-fabric'
+
+[download]
+hash = 'f7b92989ba6312352623d0311c5bb71eb8da14ea2e5a070f3a959a1f10cfe68cfc8487cf8dbde9187d849d6c04833df2a974be12949efae8aaffe873815ba7a5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AANobbMI/versions/b70slbHV/sodium-fabric-0.6.0%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'AANobbMI'
+version = 'b70slbHV'

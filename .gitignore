@@ -1,23 +1,16 @@
 # ignore everything by default
 /*
 
-# keep these two folders tracked
-!/mods/
-!/config/
+# Track only minecraft/mods/
+!/minecraft/
+minecraft/*
+!/minecraft/mods/
 
-# within tracked folders, ignore common junk
-mods/*.old
-mods/*.disabled
-mods/~$*
-
-# launcher/download caches sometimes placed inside config
-config/**/cache/
-config/**/.cache/
+# within mods, ignore common junk
+minecraft/mods/*.old
+minecraft/mods/*.disabled
+minecraft/mods/~$*
 
 # OS junk
 .DS_Store
 Thumbs.db
-
-# logs and crash reports (if they end up here)
-logs/
-crash-reports/

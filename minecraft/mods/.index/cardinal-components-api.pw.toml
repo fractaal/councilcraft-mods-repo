@@ -1,0 +1,17 @@
+filename = 'cardinal-components-api-6.1.2.jar'
+name = 'Cardinal Components API'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.1.2'
+
+[download]
+hash = '03b21994421da537d6ded9a327da42fc8e74ef2326f9c1b5552c031b396a99e9ddec7a65b9e4b2e5dffce38add1d77ab009f4268cd31d5d4af5aa97dc4f37843'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/K01OU20C/versions/xzMJDzyx/cardinal-components-api-6.1.2.jar'
+
+[update.modrinth]
+mod-id = 'K01OU20C'
+version = 'xzMJDzyx'
