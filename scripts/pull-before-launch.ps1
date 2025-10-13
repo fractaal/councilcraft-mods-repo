@@ -191,22 +191,46 @@ if ($needsAdoption) {
   Write-Host "[INIT] Git repo already configured correctly."
 }
 
-# PULL STEP: Always pull latest changes
+# PULL STEP: Get current commit before pulling
+$oldCommit = git -C $RepoPath rev-parse HEAD 2>$null
+
+# Always pull latest changes
 Write-Host "[PULL] Pulling updates in $RepoPath ..."
 $pullOutput = git -C $RepoPath pull --rebase --autostash 2>&1 | Out-String
 
 # Determine update status and show notification
 if ($pullOutput -match "Already up to date") {
   Write-Host "[PULL] Already up to date."
-  Show-Notification -StatusMessage "Mods are up to date!`nReady to launch." -StatusColor "Green"
+  Show-Notification -StatusMessage "Updates are up to date!`nReady to launch." -StatusColor "Green"
 } elseif ($pullOutput -match "Fast-forward|Updating") {
   Write-Host "[PULL] Updates downloaded!"
-  $filesChanged = ($pullOutput | Select-String "file.*changed" | Out-String).Trim()
-  if ([string]::IsNullOrWhiteSpace($filesChanged)) { $filesChanged = "Mods updated!" }
-  Show-Notification -StatusMessage "New mods downloaded!`n$filesChanged`n`nReady to launch." -StatusColor "Blue"
+  
+  # Get new commits (limit to 3, show titles only)
+  $newCommit = git -C $RepoPath rev-parse HEAD 2>$null
+  $commitMessages = @()
+  if ($oldCommit -and $newCommit -and $oldCommit -ne $newCommit) {
+    $commits = git -C $RepoPath log --oneline --pretty=format:"%s" "$oldCommit..$newCommit" 2>$null
+    if ($commits) {
+      $commitLines = $commits -split "`n"
+      $commitMessages = $commitLines | Select-Object -First 3
+      if ($commitLines.Count -gt 3) {
+        $commitMessages += "(and $($commitLines.Count - 3) more...)"
+      }
+    }
+  }
+  
+  # Build message
+  if ($commitMessages.Count -gt 0) {
+    $commitText = $commitMessages -join "`n"
+    $message = "New updates!`n`n$commitText`n`nReady to launch."
+  } else {
+    $message = "New updates downloaded!`nReady to launch."
+  }
+  
+  Show-Notification -StatusMessage $message -StatusColor "Blue"
 } elseif ($pullOutput -match "error|fatal|conflict") {
   Write-Host "[PULL] Error occurred during pull."
-  Show-Notification -StatusMessage "Failed to update mods.`nCheck console for details.`n`nLaunching anyway..." -StatusColor "Red"
+  Show-Notification -StatusMessage "Failed to update.`nCheck console for details.`n`nLaunching anyway..." -StatusColor "Red"
 } else {
   Write-Host "[PULL] Pull completed."
   Show-Notification -StatusMessage "Sync complete!`nReady to launch." -StatusColor "Green"
