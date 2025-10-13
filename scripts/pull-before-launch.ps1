@@ -122,7 +122,26 @@ switch ('$StatusColor') {
 }
 
 if (-not (Test-Command git)) {
-  Write-Error "git is not installed or not on PATH."; exit 1
+  Write-Host "[SETUP] Git not found. Attempting to install via winget..."
+  
+  if (Test-Command winget) {
+    Write-Host "[SETUP] Installing Git..."
+    winget install --id Git.Git -e --source winget --accept-package-agreements --accept-source-agreements
+    
+    # Refresh PATH to pick up newly installed git
+    $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+    
+    # Check again
+    if (-not (Test-Command git)) {
+      Write-Error "[SETUP] Git installation completed but git command not found. You may need to restart your terminal."
+      exit 1
+    }
+    
+    Write-Host "[SETUP] Git installed successfully!"
+  } else {
+    Write-Error "[SETUP] Git is not installed and winget is not available. Please install Git manually from https://git-scm.com/"
+    exit 1
+  }
 }
 
 # Avoid safe.directory errors on some setups
