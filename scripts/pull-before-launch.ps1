@@ -27,7 +27,7 @@ Add-Type -AssemblyName System.Drawing
 
 `$form = New-Object System.Windows.Forms.Form
 `$form.Text = 'CouncilCraft Mods Sync'
-`$form.Size = New-Object System.Drawing.Size(700,300)
+`$form.Size = New-Object System.Drawing.Size(700,400)
 `$form.StartPosition = 'CenterScreen'
 `$form.FormBorderStyle = 'FixedDialog'
 `$form.MaximizeBox = `$false
@@ -51,11 +51,11 @@ Add-Type -AssemblyName System.Drawing
 
 # Status Message
 `$statusLabel = New-Object System.Windows.Forms.Label
-`$statusLabel.Location = New-Object System.Drawing.Point(40,150)
-`$statusLabel.Size = New-Object System.Drawing.Size(620,100)
+`$statusLabel.Location = New-Object System.Drawing.Point(20,145)
+`$statusLabel.Size = New-Object System.Drawing.Size(660,220)
 `$statusLabel.Text = '$escapedMessage'
-`$statusLabel.Font = New-Object System.Drawing.Font('Segoe UI',13,[System.Drawing.FontStyle]::Bold)
-`$statusLabel.TextAlign = 'MiddleCenter'
+`$statusLabel.Font = New-Object System.Drawing.Font('Segoe UI',12,[System.Drawing.FontStyle]::Bold)
+`$statusLabel.TextAlign = 'TopCenter'
 
 # Set color based on status
 switch ('$StatusColor') {
