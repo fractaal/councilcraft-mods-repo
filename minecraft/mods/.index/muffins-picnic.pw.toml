@@ -1,0 +1,17 @@
+filename = 'muffins_picnic-1.21-fabric-1.0.1.jar'
+name = "Muffin's Picnic"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'a628996c92947e6533cc96a1447bcc26c13ba90b00e3e030f1363944f1a3184ccea77c11a9e6b8590ac215d41b5ef028e90bba966a899bcf9cae1ee5b44b966d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GBVjc6sv/versions/xV51anf0/muffins_picnic-1.21-fabric-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'GBVjc6sv'
+version = 'xV51anf0'

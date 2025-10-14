@@ -1,0 +1,17 @@
+filename = 'friendsandfoes-fabric-4.0.10+mc1.21.1.jar'
+name = 'Friends&Foes (Fabric/Quilt)'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-4.0.10+mc1.21.1'
+
+[download]
+hash = '9dfad8f629ddb538fa948500e015541c3d64fe4d1895be96e8eb824d4b3f96f8790d9bd24c582efd345c55916bcdd1e3039bdc15ac41654d74b94149d7983847'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/POQ2i9zu/versions/wI2zqwPg/friendsandfoes-fabric-4.0.10%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'POQ2i9zu'
+version = 'wI2zqwPg'

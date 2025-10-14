@@ -1,0 +1,17 @@
+filename = 'DiagonalWindows-v21.1.1-1.21.1-Fabric.jar'
+name = 'Diagonal Windows'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v21.1.1-1.21.1-Fabric'
+
+[download]
+hash = '577dbe0297510b582081db98101891d61827ffde5cec94d25b2893f77914f657337f9a43b10ade5a9ac138ae215c5297be3d7e9dc4377fc10b96a629e3f3cf90'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oOi0CKes/versions/8Kb6Dcsd/DiagonalWindows-v21.1.1-1.21.1-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'oOi0CKes'
+version = '8Kb6Dcsd'

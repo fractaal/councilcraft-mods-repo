@@ -1,0 +1,17 @@
+filename = 'exposure_expanded-fabric-1.0.1.jar'
+name = 'Exposure: Expanded'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'a8e8eacd8d9834a15eca5b926951eb9682f72b53b2f85c738ca483962181ed4ba46acd58f53f92ae5b980d0b62f90dbe7b9370ed0d0c65c6e6cf6e99a3763106'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/61XQmq6p/versions/fNzxueoV/exposure_expanded-fabric-1.0.1.jar'
+
+[update.modrinth]
+mod-id = '61XQmq6p'
+version = 'fNzxueoV'

@@ -1,0 +1,17 @@
+filename = 'strawgolem-fabric-1.21-2.0.0.jar'
+name = 'Straw Golem Rebaled: Ported'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '2.0.0'
+
+[download]
+hash = '9923539bac0191cc414957c0ff77c0c92996f7fed4775ad005077bc243226fa1c1cabc5046d2ffd59a2bcecdec91ccf0486b210d9fe07dbbd120c45be0bd8a3c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Lv51AjnX/versions/r71lXBjT/strawgolem-fabric-1.21-2.0.0.jar'
+
+[update.modrinth]
+mod-id = 'Lv51AjnX'
+version = 'r71lXBjT'

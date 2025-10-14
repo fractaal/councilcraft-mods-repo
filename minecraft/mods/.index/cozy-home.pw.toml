@@ -1,0 +1,17 @@
+filename = 'Luckys-Cozyhome-Refurnished-1.1.15.jar'
+name = "Lucky's Cozy Home: Refurnished"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.15'
+
+[download]
+hash = '598277fea9c6f868e277704d2d3dbc16df78bcf2bca1b9794f9acac91f47c3fd81d3f1a11049f867039aa07627686481313c464d49c977c17cb2ca1e5f271f56'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TNcLBDkY/versions/qGdCrL3t/Luckys-Cozyhome-Refurnished-1.1.15.jar'
+
+[update.modrinth]
+mod-id = 'TNcLBDkY'
+version = 'qGdCrL3t'

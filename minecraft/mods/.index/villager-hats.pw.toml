@@ -1,0 +1,17 @@
+filename = 'villager-hats-1.7.2+1.21.jar'
+name = 'Villager Hats'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.7.2+1.21'
+
+[download]
+hash = '0ddb725a2ff27c10839e0656215dd74cd748285891c9cb47c4e86144bf37026a245bccece540c73cb09b5c5c6b2c22c1ddc2a9034a1ed32e9a67a0c5362292fe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vghf63Ct/versions/YxvfN6DM/villager-hats-1.7.2%2B1.21.jar'
+
+[update.modrinth]
+mod-id = 'vghf63Ct'
+version = 'YxvfN6DM'

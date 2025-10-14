@@ -1,0 +1,17 @@
+filename = 'simplehats-fabric-1.21.1-0.4.0.jar'
+name = 'Simple Hats'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-0.4.0'
+
+[download]
+hash = '6672c3c3834a06a5dff7afc76138904d73f7c6199c205df821fea6d46cf9b3882c23f06eef9dfd00da78dd71d4f1e61f85de5e8113f9b4aef91ccaaa584a264a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iSkQCp6b/versions/nV0q5j3l/simplehats-fabric-1.21.1-0.4.0.jar'
+
+[update.modrinth]
+mod-id = 'iSkQCp6b'
+version = 'nV0q5j3l'

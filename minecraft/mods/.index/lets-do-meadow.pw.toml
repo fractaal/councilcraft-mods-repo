@@ -1,0 +1,17 @@
+filename = 'letsdo-meadow-fabric-1.4.3.jar'
+name = "[Let's Do] Meadow"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.3'
+
+[download]
+hash = '560b50bd0638908e9c71294c7e972282d0c95f7ac31ceed03fc13a9fdabe9b4ba153a420db548f8b79520b0e917709f0e1dd4925552eb80a38ff5f380b910c86'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ra7o6Sl7/versions/CAOw1C6k/letsdo-meadow-fabric-1.4.3.jar'
+
+[update.modrinth]
+mod-id = 'ra7o6Sl7'
+version = 'CAOw1C6k'

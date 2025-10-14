@@ -1,0 +1,17 @@
+filename = 'mcw-lights-1.1.2-mc1.21.1fabric.jar'
+name = "Macaw's Lights and Lamps"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.2'
+
+[download]
+hash = 'd62ade7bcaad2ba2004db1292e46518ddc2b34c876336ccaf9a5a47c7f2344052865759263102c5786f87b0a30c5b008af23b6bf32cdc828eff3ad1e03e15b7d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/w4an97C2/versions/pMR0VOs2/mcw-lights-1.1.2-mc1.21.1fabric.jar'
+
+[update.modrinth]
+mod-id = 'w4an97C2'
+version = 'pMR0VOs2'

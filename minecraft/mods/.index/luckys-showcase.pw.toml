@@ -1,0 +1,17 @@
+filename = 'luckysshowcase-fabric-1.21.1-21.1.0.jar'
+name = "Lucky's Showcase"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.0'
+
+[download]
+hash = '188831033b0127eb206746e4f911d866d933b0ee31bfbec5f3799a68c2e909244307cf9fefde721659860fa885f70a1dccd244c08621d3a189e1d9bd8ce1f825'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FWO9GQ2I/versions/Aw724gz4/luckysshowcase-fabric-1.21.1-21.1.0.jar'
+
+[update.modrinth]
+mod-id = 'FWO9GQ2I'
+version = 'Aw724gz4'

@@ -1,0 +1,17 @@
+filename = 'mcw-mcwholidays-1.1.1-mc1.21.1fabric.jar'
+name = "Macaw's Holidays"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.1'
+
+[download]
+hash = 'a71df2bdde474797513344e0a19fdf41cfc320497044b09fc7132bad0e7c178788f2c01997307a848c52721d22303b16f90a87259aad3f1c7cff2eb76844b1b1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rH20L2Lp/versions/ExA7oLeM/mcw-mcwholidays-1.1.1-mc1.21.1fabric.jar'
+
+[update.modrinth]
+mod-id = 'rH20L2Lp'
+version = 'ExA7oLeM'

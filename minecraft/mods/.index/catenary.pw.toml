@@ -1,0 +1,17 @@
+filename = 'catenary-1.3.jar'
+name = 'Catenary'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.3.1+mod'
+
+[download]
+hash = '632dfd01c110840935767faadf68e4f7611f24eeae8f32459f2a359d229161645b79b2d6954035d15644010477c0a8be9ded74e5ec2646dc93db5858cdf59eb4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zJIYJfn8/versions/vKCND7bB/catenary-1.3.jar'
+
+[update.modrinth]
+mod-id = 'zJIYJfn8'
+version = 'vKCND7bB'

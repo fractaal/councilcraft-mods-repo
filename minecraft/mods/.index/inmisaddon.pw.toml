@@ -1,0 +1,17 @@
+filename = 'inmisaddon-1.0.4.jar'
+name = 'InmisAddon'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.4+1.21.1'
+
+[download]
+hash = '856a91e3e2c5ff2226dffc068efbaed4aada5e4cc5db1dfe099862ab7eefe95a2be01049e3f4cad383d7f97ac2b5c33f182ea8a834ac1848bbe9be55a823d131'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/c4aa1Mqq/versions/akYLpLPq/inmisaddon-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'c4aa1Mqq'
+version = 'akYLpLPq'

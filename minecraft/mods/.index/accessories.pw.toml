@@ -1,0 +1,17 @@
+filename = 'accessories-fabric-1.1.0-beta.52+1.21.1.jar'
+name = 'Accessories'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.1.0-beta.52+1.21.1'
+
+[download]
+hash = 'b0cd93f4341fe29e9fb9ef43c197313b694ce0b11c58c97594ee81c7c662605df7f6c2b37bfba4c6767b68e97c1e6a4fcea03cfbca18fe3d316ffe165ecbf3f4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jtmvUHXj/versions/uPPIhLTH/accessories-fabric-1.1.0-beta.52%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'jtmvUHXj'
+version = 'uPPIhLTH'

@@ -1,0 +1,17 @@
+filename = 'camping-fabric-1.21.1-2.1.1.jar'
+name = "[Let's Do] Camping"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.1'
+
+[download]
+hash = '23a4dc2eaf11f8a737686264da22ec825864936eac024f77f9a09c6526e8731a4138eb7929d2af0fea3e70ba3aec5515684929cbaab58e4d44d397b7f2e2ac10'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uJXTNuf0/versions/MvTddnn3/camping-fabric-1.21.1-2.1.1.jar'
+
+[update.modrinth]
+mod-id = 'uJXTNuf0'
+version = 'MvTddnn3'

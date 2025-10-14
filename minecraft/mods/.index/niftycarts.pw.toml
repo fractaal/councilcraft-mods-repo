@@ -1,0 +1,17 @@
+filename = 'niftycarts-21.1.1.jar'
+name = 'NiftyCarts'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.1'
+
+[download]
+hash = '6cee637438b2cce4f62380cb0add4c25a19d607e856245698aeb086fe7dec6c37aa735de309ed3eab4dc66ac6fdf493db94f358c4b6366d8902e78068aa477d2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CXd6g9xp/versions/i6VELfmL/niftycarts-21.1.1.jar'
+
+[update.modrinth]
+mod-id = 'CXd6g9xp'
+version = 'i6VELfmL'
