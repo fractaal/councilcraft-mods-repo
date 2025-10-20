@@ -1,0 +1,17 @@
+filename = 'crawl-0.14.9.jar'
+name = 'Crawl'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.14.9'
+
+[download]
+hash = '691a0bdb915935eb03c8febb14c9ec34b4759332b9e480b8375d8d763e5bd62841acc277049f5d7aa9dad148cf1dc75e7964a9681d7daf50613b985e79893218'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/H1JOVjhn/versions/KQ0hsUlb/crawl-0.14.9.jar'
+
+[update.modrinth]
+mod-id = 'H1JOVjhn'
+version = 'KQ0hsUlb'

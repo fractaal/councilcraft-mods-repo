@@ -1,0 +1,17 @@
+filename = 'linkart-refabricated-6.1.1-1.21.1.jar'
+name = 'Linkart Refabricated'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '6.1.1-1.21.1'
+
+[download]
+hash = '15ef7d6a50a1fb9659a055644f0f6fe988718ddf8584a48f304b56ca69cda942e5f30a8b9650080e25f4e49bcb7337d79257cd619673d9f4f704543097304f2b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XcifMBeU/versions/6Dd3XQxE/linkart-refabricated-6.1.1-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'XcifMBeU'
+version = '6Dd3XQxE'
