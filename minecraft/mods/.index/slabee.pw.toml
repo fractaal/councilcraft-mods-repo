@@ -1,0 +1,17 @@
+filename = 'Slabee-1.0.0-beta.3+1.21.1.jar'
+name = 'Slabee'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.0-beta.3+1.21.1'
+
+[download]
+hash = 'b8972f9a9696070dc0d74dbd103b304abf2aa31df6532eb85772dee2b4dd5c11b886cb1b772c4e667f8d3e25da4c7d7b3ce66731f6147fd6e82c1923990ecd58'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WS6roVZ5/versions/ieX9LYB2/Slabee-1.0.0-beta.3%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'WS6roVZ5'
+version = 'ieX9LYB2'
