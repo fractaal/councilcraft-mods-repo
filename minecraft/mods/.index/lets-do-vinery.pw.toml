@@ -1,0 +1,17 @@
+filename = 'letsdo-vinery-fabric-1.5.1.jar'
+name = "[Let's Do] Vinery"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.5.1'
+
+[download]
+hash = 'b92e83264f17f9e7bcbb0f6dfd6a2c495c8f2f737e59dd49c4325c7103cec23aaed7dbc6945c643e83171c40051ba0bf47d3aa5a06c92fd967dd2cfc48d18ae1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1DWmBJVA/versions/inwgjOIq/letsdo-vinery-fabric-1.5.1.jar'
+
+[update.modrinth]
+mod-id = '1DWmBJVA'
+version = 'inwgjOIq'

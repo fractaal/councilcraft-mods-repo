@@ -1,0 +1,17 @@
+filename = 'archers-fabric-2.6.8+1.21.1.jar'
+name = 'Archers (RPG Series)'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.6.8+1.21.1-fabric'
+
+[download]
+hash = 'cec3fc94a6420d6623e4af421e123f6bbd8f11d1cb12c0306413436139c9ea625271de47c669925395a8c1c0607160c5c2aab41ec5c9aae870d957d8d8b890f6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QgooUXAJ/versions/W9R5oGCJ/archers-fabric-2.6.8%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'QgooUXAJ'
+version = 'W9R5oGCJ'

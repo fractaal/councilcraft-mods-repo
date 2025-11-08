@@ -1,0 +1,17 @@
+filename = 'shield_api-fabric-2.2.0.jar'
+name = 'Shield API'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.0-fabric'
+
+[download]
+hash = '0fb5427abb3afd0d742c15586162925d0ba1ee5031846f45676ee11b7ed0b792ce34f150f0b8be5c4cd90e9a24e5361921422339ee0ef85b9797a9e5722afe83'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/y9clIFY4/versions/rdcTHSZH/shield_api-fabric-2.2.0.jar'
+
+[update.modrinth]
+mod-id = 'y9clIFY4'
+version = 'rdcTHSZH'

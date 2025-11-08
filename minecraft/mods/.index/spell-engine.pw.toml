@@ -1,0 +1,17 @@
+filename = 'spell_engine-fabric-1.8.11+1.21.1.jar'
+name = 'Spell Engine'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.8.11+1.21.1-fabric'
+
+[download]
+hash = 'ea56b951f5a776d349a25e82d3463ac2f44d7144c7e2e9d882d886b1ebca78e7b847d92969ca13396003eb9d725fb3eeb7acb7633e57fa4c339f585f56b7595f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XvoWJaA2/versions/5tKMzB39/spell_engine-fabric-1.8.11%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'XvoWJaA2'
+version = '5tKMzB39'

@@ -1,0 +1,17 @@
+filename = 'runes-fabric-1.2.0+1.21.1.jar'
+name = 'Runes'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.0+1.21.1-fabric'
+
+[download]
+hash = '56290f9da8a0ece16a6c0e1549edefed0265949a0b17930c5b8380e4f34c43e1833e32e12303333b75bcff83423292bfe4aebed9bef6839e80958eb0bddbd3b7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lP9Yrr1E/versions/wjD3IPY6/runes-fabric-1.2.0%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'lP9Yrr1E'
+version = 'wjD3IPY6'
