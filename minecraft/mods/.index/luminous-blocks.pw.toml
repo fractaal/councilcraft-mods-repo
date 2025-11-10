@@ -1,0 +1,17 @@
+filename = 'luminousblocks-1.3.0-fabric-1.21.1.jar'
+name = 'Luminous Blocks'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.3.0'
+
+[download]
+hash = 'd276331d2033d2f89714e882b142d8fc72aed1bd5227521a6cef12327bd5d4baee4a2ffb7b1d297e20f268ca8b186e0b19eb548feb319a81dc31a09f59ec9e5c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sE5eVkj4/versions/Y1Q91oSd/luminousblocks-1.3.0-fabric-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'sE5eVkj4'
+version = 'Y1Q91oSd'

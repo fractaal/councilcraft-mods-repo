@@ -1,0 +1,17 @@
+filename = 'caffeinated-1.0.5.jar'
+name = 'Caffeinated'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.5'
+
+[download]
+hash = 'cf18fcf3d6dbe4a4177809a832beaf15d983936fad0a8af85b365107a1b861b5635caf639638fe3fcb7b88029ad5c3b3eb1ddf0ef155a3dd805c7a3a349b0b6e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AL5TqUKj/versions/KmHhX4IF/caffeinated-1.0.5.jar'
+
+[update.modrinth]
+mod-id = 'AL5TqUKj'
+version = 'KmHhX4IF'

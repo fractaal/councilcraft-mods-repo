@@ -1,0 +1,17 @@
+filename = 'kawaii-dishes-1.13-beta14.jar'
+name = 'Kawaii Dishes'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.13-beta14'
+
+[download]
+hash = 'b57cd790f31158b77438ae917a3042f35bbf11c0acb7d7a0c7c65c4e64f18f655ed9e3348f01b814d390e91ec259e0fd5845ce4553ae63a50371c37046b0f33e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/v2Vpr5Uf/versions/CYEATgik/kawaii-dishes-1.13-beta14.jar'
+
+[update.modrinth]
+mod-id = 'v2Vpr5Uf'
+version = 'CYEATgik'
