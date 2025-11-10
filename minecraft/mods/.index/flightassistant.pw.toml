@@ -1,0 +1,17 @@
+filename = 'flightassistant-fabric-3.0.0-beta.1+mc1.21.1.jar'
+name = 'FlightAssistant'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '3.0.0-beta.1+mc1.21.1-fabric'
+
+[download]
+hash = '561200180d939b4bcc0bc3d7095ce81f1d61e0e4184d488962737d0a795c193de6326ec825999dc962a73d7de1ccfe4eeccfb2247b19c1a4fddd745f2947db27'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CWqLEOPt/versions/ERmGuKcL/flightassistant-fabric-3.0.0-beta.1%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'CWqLEOPt'
+version = 'ERmGuKcL'

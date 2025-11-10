@@ -1,0 +1,17 @@
+filename = 'thecopperrail-0.9.4.jar'
+name = 'The Copper Rail'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.9.4'
+
+[download]
+hash = '990d7ddd8b942826e2c06b0f551a89fb4e4978f8c0f62cec3a77887c827c70f6aeee88e77c23f469a084d411165234f830b8715eb4f14f7c243172748315a347'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/P8zXItsV/versions/m1s2rxp7/thecopperrail-0.9.4.jar'
+
+[update.modrinth]
+mod-id = 'P8zXItsV'
+version = 'm1s2rxp7'
