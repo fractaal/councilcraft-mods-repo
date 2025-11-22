@@ -1,0 +1,17 @@
+filename = 'enchantments-encore-1.8.jar'
+name = 'Enchantments Encore'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.8+mod'
+
+[download]
+hash = '154a56ea445e2d96159cb1f9b18d50e4237bd4ced04ffef969b8c8f387ab82f397b0b6f804fa42bfb9a3b2ba9123d6c1d0bfa6b38c9169f8f3c6c6ad14353f3a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GD1QoExk/versions/G0Ilv4nD/enchantments-encore-1.8.jar'
+
+[update.modrinth]
+mod-id = 'GD1QoExk'
+version = 'G0Ilv4nD'
