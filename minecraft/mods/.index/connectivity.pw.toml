@@ -1,0 +1,17 @@
+filename = 'connectivity-fabric-1.21-7.2.jar'
+name = 'Connectivity'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'connectivity-fabric-1.21-7.2.jar'
+
+[download]
+hash = '041ae0b580626a2ff05e3464a76ae04a31054376'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7032391
+project-id = 470193
