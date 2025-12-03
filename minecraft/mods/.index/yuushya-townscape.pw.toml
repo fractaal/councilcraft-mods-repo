@@ -1,0 +1,17 @@
+filename = 'yuushya-1.21.0-fabric-2.2.3.jar'
+name = 'Yuushya Townscape'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.3'
+
+[download]
+hash = '325d859f143117d9bfb921e7edc6f03d9f945ffb40ecb181ac8c6e46e9f04f1cfc911b5f0042922e510f863a1f80e9d42eac432f0b568fd62510b1c2d8d800a4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lfVtagkm/versions/J5eH5hyi/yuushya-1.21.0-fabric-2.2.3.jar'
+
+[update.modrinth]
+mod-id = 'lfVtagkm'
+version = 'J5eH5hyi'
